@@ -1,0 +1,16 @@
+#Auth Configuration
+USER1=user1
+USER1_PASSWORD=$argon2i$v=19$m=4096,t=3,p=1$ZWxlYXJuaW5n$cuBtxN1AkYihc7qlMV8AB7Yl82/yz+Th7vQfPTy0nUw
+
+USER2=user2
+USER2_PASSWORD=$argon2i$v=19$m=4096,t=3,p=1$ZWxlYXJuaW5n$GbSPg0kJZtp9MsbqqQS6SffG6oXx3c5asnbcT8IjVmQ
+
+ADMIN=admin
+ADMIN_PASSWORD=$argon2i$v=19$m=4096,t=3,p=1$ZWxlYXJuaW5n$smlaZ5JGS+SMqqDviaZESyUFRveTm38oleapom97xt0
+
+#HTTPS Configuration
+KEYSTORE=springbootcert.p12
+KEYSTORE_PASS=passwd
+KEYSTORE_TYPE=PKCS12
+KEY_ALIAS=springbootcert
+SERVER_PORT=8443
